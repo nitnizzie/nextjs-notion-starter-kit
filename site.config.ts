@@ -10,11 +10,11 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'ShinHyeok Hwang',
-  domain: 'shinhyeok.com',
+  domain: 'shinhyeok.vercel.app',
   author: 'Shinhyeok Hwang',
 
   // open graph metadata (optional)
-  description: 'Shinhyeok\'s Website with Portfolio',
+  description: "Shinhyeok's Personal Website",
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
@@ -50,16 +50,20 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'default'
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
-  //   }
-  // ]
+  // navigationStyle: 'default',
+  navigationStyle: 'custom',
+  navigationLinks: [
+    {
+      title: 'Home',
+      pageId: '86e49ac997c945a69094ac47d7c6b74d'
+    },
+    {
+      title: 'About',
+      pageId: '4beb682049b3485a85ea440ca632222e'
+    },
+    {
+      title: 'Contact',
+      pageId: '3b10dd1a90a843b685f800bd8a23a430'
+    }
+  ]
 })
