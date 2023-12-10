@@ -20,6 +20,7 @@ export default siteConfig({
   // twitter: 'transitive_bs',
   github: 'nitnizzie',
   linkedin: 'shinhyeok-hwang',
+  instagram: 'shinhyeok.hwang',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`

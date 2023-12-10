@@ -93,6 +93,13 @@
   border-color: #0077b5;
 }
 
+.instagram .actionBgPane {
+  background: #e1306c;
+}
+.instagram:hover {
+  border-color: #e1306c;
+}
+
 .github .actionBgPane {
   background: #c9510c;
 }
@@ -101,10 +108,10 @@
 }
 
 .youtube .actionBgPane {
-  background: #FF0000;
+  background: #ff0000;
 }
 .youtube:hover {
-  border-color: #FF0000;
+  border-color: #ff0000;
 }
 
 .medium .actionBgPane {
